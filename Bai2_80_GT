@@ -1,0 +1,84 @@
+<html>
+    <head>
+        
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <meta charset="utf-8" />
+            <meta http-equiv="refresh" content="30" />
+            <title>Trang thông tin cá nhân</title>
+            <style>
+            body{background-color: mediumturquoise;}
+            .kiet {
+            background-color: yellowgreen; 
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 110px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            margin: 0 auto;
+            }
+            
+            </style>
+    </head>
+
+<body>    
+<form>
+    <fieldset><legend><strong>Thông tin sinh viên:</strong></legend>
+        <form>
+            <fieldset>
+                <legend><b>TRANG CHỦ:</b></legend>
+                <div class="kiet">
+                    Họ và tên:<br>
+                    <input type="text" name="Lê Anh Kiệt" value="Lê Anh Kiệt"><br>
+                    Tuổi:<br>
+                    <input type="text" name="Tuổi" value="18"><br>
+                    Ngày sinh:<br>
+                    <input type="text" name="Ngày sinh" value="10/06/2006"><br>
+                    SĐT:<br>
+                    <input type="text" name="SĐT" value="0345552230"><br>
+                    Địa chỉ:<br>
+                    
+                    <input type="text" name="Địa chỉ" value="Gia Lộc, Trảng Bàng, Tây Ninh"><br>
+                    
+                    Email:<br>
+                    <input type="text" name="Email" value="leanhkiet10062006@gmail.com"><br>
+                </div>
+            </fieldset>
+
+        </form>
+        <form>
+            <fieldset>
+                <legend><b>KẾ HOẠCH:</b></legend>
+                <ul>
+                    <li>18<sup>h</sup>60: Học lại các bài hôm đó.</li>
+
+                </ul>
+            </fieldset>
+        </form>
+        <form>
+            <fieldset>
+                <legend><b>KHÔNG THỂ KHÔNG THÍCH:</b></legend>
+                <u>
+                    <li>Ăn hải sản</li>
+                    <li>Chơi thể thao</li>
+                </u>
+            </fieldset>
+        </form>
+        <form>
+            <fieldset>
+            <legend><b>Liên hệ</b></legend>
+            <u>
+             <li>Tổng đài CSKH: +84345552230</li>
+             </u>
+         </fieldset>
+        </form>
+    </fieldset>
+</form>
+<nav>
+    <a href="#">Trang Chủ</a><p> </p>
+    <a href="#">Giới Thiệu</a><p> </p>
+    <a href="#">Liên Hệ:<b>0345552230</b></a><p> </p>
+</nav>
+<footer>
+    <p>Bản quyền © 2024</p>
+</footer>
+</body>
+</html>
